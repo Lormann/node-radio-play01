@@ -10,6 +10,12 @@
 ##### 2. modules managed by github and npm package
 ##### 3. auto-test and depoly when committed
 
+#### Construction
+- project init
+```bash
+node init
+```
+
 
 #### Trying zone
 - Html table
