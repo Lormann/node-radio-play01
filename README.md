@@ -9,57 +9,57 @@
 ##### 1. Play *stream radio* from web
 ##### 2. modules managed by github and npm package
 ##### 3. auto-test and depoly when committed
+##### 4. The tech.
+```
+- socket.io
+- aws sns
+- mongodb
+```
 
 #### Construction
-- project init
+- Project init
 ```bash
 node init
 ```
-
-
-#### Trying zone
-- Html table
-<table>
-    <tr>
-        <td>Mocha</td>
-        <td>Mongo db</td>
-        <td>Moogose</td>
-        <td>Raven</td>
-    </tr>
-</table>
-
-- This is code block
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+- Add modules and save to package
 ```
+npm install name_module --save ,(dependencies)
+npm install name_module --save-dev ,(devdependencies)
 ```
-This text is displayed verbatim / preformatted
+- Add ignored items to .gitignore
 ```
-<pre><code>
-    tell application "Foo"
-    int a=b+c;
-    a=12;
-</code></pre>
+node_modules 
+```  
+- [Install mongodb][ref02] and [init mongod][ref03]
+```
+mongod --dbpath /var/lib/mongodb/&
 
-- link
+```
 
-This is a [link] [id1] 
+#### In progressing 
 
-- define link id
-
-[id1]: http://www.google.com  "Link to Google search"
-
-- Table
-
-First Header | Second Header
+Wait for Study | Detail
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+ [Todo with Mongodb][study01]| express/ejs and mongodb
+ [login with Passport][study02] | on Azure cloud
+ Radio Streaming|[Shoutcast][study04],[Icecast][study05],[Radio-nodejs][study03],[Radio-Android][study06]
 
 #### Reference
-- http://markdown.tw/
+- [Markdown example][ref01]
+- [Install MongoDB][ref02]
+- [Linux network status check][ref05]
+- [MongoDB tutorial][ref06]
+
+[ref01]:http://markdown.tw/ "Markdown example" 
+[ref02]:http://www.arthurtoday.com/2015/05/ubuntu-install-mongodb-3x.html "Setup env for mongodb"
+[ref03]:https://docs.mongodb.org/manual/tutorial/manage-mongodb-processes/ "mongodb example01"
+[ref04]:http://blog.gtwang.org/programming/getting-started-with-mongodb-shell-1/ "mongodb example02"
+[ref05]:http://www.binarytides.com/linux-ss-command/ "ss command for linux network status check"
+[ref06]:http://www.tutorialspoint.com/mongodb/mongodb_create_collection.htm "tutor for mongodb"
+
+[study01]:http://dreamerslab.com/blog/tw/write-a-todo-list-with-express-and-mongodb/ "todo with mongodb"
+[study02]:https://azure.microsoft.com/zh-tw/documentation/articles/active-directory-b2c-devquickstarts-web-node/ "login"
+[study03]:https://github.com/pedromtavares/radio 
+[study04]:http://www.shoutcast.com/
+[study05]:http://icecast.org/
+[study06]:https://github.com/cr5315/shoutcast-android 
