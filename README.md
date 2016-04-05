@@ -49,6 +49,8 @@ Wait for Study | Detail
 - [Install MongoDB][ref02]
 - [Linux network status check][ref05]
 - [MongoDB tutorial][ref06]
+- [Socket io][study07]
+- [NVM install nodejsnvm ls-remote][ref07]
 
 [ref01]:http://markdown.tw/ "Markdown example" 
 [ref02]:http://www.arthurtoday.com/2015/05/ubuntu-install-mongodb-3x.html "Setup env for mongodb"
@@ -56,6 +58,7 @@ Wait for Study | Detail
 [ref04]:http://blog.gtwang.org/programming/getting-started-with-mongodb-shell-1/ "mongodb example02"
 [ref05]:http://www.binarytides.com/linux-ss-command/ "ss command for linux network status check"
 [ref06]:http://www.tutorialspoint.com/mongodb/mongodb_create_collection.htm "tutor for mongodb"
+[ref07]:http://yoember.com/nodejs/the-best-way-to-install-node-js/ "nvm install nodejs"
 
 [study01]:http://dreamerslab.com/blog/tw/write-a-todo-list-with-express-and-mongodb/ "todo with mongodb"
 [study02]:https://azure.microsoft.com/zh-tw/documentation/articles/active-directory-b2c-devquickstarts-web-node/ "login"
@@ -63,3 +66,5 @@ Wait for Study | Detail
 [study04]:http://www.shoutcast.com/
 [study05]:http://icecast.org/
 [study06]:https://github.com/cr5315/shoutcast-android 
+[study07]:http://blogger.gtwang.org/2014/03/socket-io-node-js-realtime-app.html "socket io"
+[study08]:https://www.twilio.com/blog/2015/10/getting-started-with-socket-io-adding-real-time-events-to-your-node-js-express-app.html "socket io"
