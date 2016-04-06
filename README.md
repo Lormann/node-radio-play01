@@ -51,7 +51,8 @@ Wait for Study | Detail
 - [Install MongoDB][ref02]
 - [Linux network status check][ref05]
 - [MongoDB tutorial][ref06]
-- [Socket io][study07]
+- [Socket io ref-1][study07]
+- [Socket io realtime events][study08]
 - [NVM install nodejsnvm ls-remote][ref07]
 
 [ref01]:http://markdown.tw/ "Markdown example" 
@@ -61,6 +62,8 @@ Wait for Study | Detail
 [ref05]:http://www.binarytides.com/linux-ss-command/ "ss command for linux network status check"
 [ref06]:http://www.tutorialspoint.com/mongodb/mongodb_create_collection.htm "tutor for mongodb"
 [ref07]:http://yoember.com/nodejs/the-best-way-to-install-node-js/ "nvm install nodejs"
+[ref08]:http://expressjs.com/en/4x/api.html "express ref"
+
 
 [study01]:http://dreamerslab.com/blog/tw/write-a-todo-list-with-express-and-mongodb/ "todo with mongodb"
 [study02]:https://azure.microsoft.com/zh-tw/documentation/articles/active-directory-b2c-devquickstarts-web-node/ "login"
